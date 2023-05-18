@@ -1,0 +1,111 @@
+form {
+  font-size: 16px;
+  color: #333;
+  width: 100%;
+  border: 2px solid #b8a7a7;
+  border-radius: 5px;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+  margin-bottom: 20px;
+  padding: 0;
+  border: none;
+}
+
+legend {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.select-label {
+  display: flex;
+  align-items: center;
+}
+
+#ruta-select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+#ruta-select option {
+  font-size: 14px;
+}
+
+.btn-agregar {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-agregar:hover {
+  background-color: #0062cc;
+}
+
+.btn-guardar {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-guardar:hover {
+  background-color: #218838;
+}
+
+table {
+  border-collapse: separate;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+thead th {
+  border: 2px solid #000000;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+}
+
+tbody td,
+tbody th {
+  border: 2px solid #000000;
+  font-size: 18px;
+  padding: 4px;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

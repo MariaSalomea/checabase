@@ -1,0 +1,59 @@
+.button-delete {
+    background-color: #ff4444;
+    color: #ffffff;
+    border: none;
+    margin: 2px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button-move-up {
+    background-color: #337ab7;
+    color: #ffffff;
+    border: none;
+    margin: 2px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button-assign-tacopan {
+    background-color: #ffc107;
+    color: #ffffff;
+    border: none;
+    margin: 2px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .button-timer {
+    background-color: #93a788;
+    color: #ffffff;
+    border: none;
+    margin: 2px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .unit-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .unit-row {
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
+  
+  .unit-row:hover {
+    background-color: #e6e6e6;
+  }
+
+  .unit-cell {
+    padding: 3px;
+    text-align: center;
+  }
